@@ -6,7 +6,12 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.2.2",
-    "turbolinks": "^5.2.0"
+    "bootstrap": "3",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "select": "^1.1.2",
+    "turbolinks": "^5.2.0",
+    "typed.js": "^2.0.11"
   },
   "version": "0.1.0",
   "devDependencies": {
