@@ -1,22 +1,22 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
-resources :plants
+# resources :plants
 
 # lire toutes les plantes
-# get "plants" => "plant#index"
+get "plants" => "plant#index"
 
-# # lire une plante
-# get "plants/:id" => "plants#show"
+# lire une plante
+get "plants/:id" => "plants#show"
 
-# # creer une plante
-# get "plants/new" => "plants#new"
-# post "plants" => "plants#create"
+# creer une plante
+get "plants/new" => "plants#new"
+post "plants" => "plants#create"
 
-# # mettre a jour une plante
-# get "plants/:id/edit" => "plant#edit"
-# patch "plants/:id" => "plants#update"
+# mettre a jour une plante
+get "plants/:id/edit" => "plants#edit"
+patch "plants/:id" => "plants#update"
 
-# # supprimer une plante
-#  delete "plants/:id" => "plants#destroy"
-# end
+# supprimer une plante
+ delete "plants/:id" => "plants#destroy"
+end
