@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-end
+
+# resources :plants
+
 
 # lire toutes les plantes
 get "plants" => "plant#index"
@@ -17,4 +19,6 @@ get "plants/:id/edit" => "plant#edit"
 patch "plants/:id" => "plants#update"
 
 # supprimer une plante
-delete "plants/:id" => "plants#destroy"
+ delete "plants/:id" => "plants#destroy"
+
+end
