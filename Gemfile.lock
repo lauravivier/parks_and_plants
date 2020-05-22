@@ -59,8 +59,6 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     bindex (0.8.1)
-    binding_of_caller (0.8.0)
-      debug_inspector (>= 0.0.1)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -76,7 +74,6 @@ GEM
     childprocess (3.0.0)
     concurrent-ruby (1.1.5)
     crass (1.0.5)
-    debug_inspector (0.0.3)
     erubi (1.9.0)
     ffi (1.11.3)
     globalid (0.4.2)
@@ -106,7 +103,7 @@ GEM
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
     public_suffix (4.0.2)
-    puma (4.3.1)
+    puma (4.3.5)
       nio4r (~> 2.0)
     rack (2.0.8)
     rack-proxy (0.6.5)
@@ -203,13 +200,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  binding_of_caller
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
-  puma (~> 4.1)
+  puma (~> 4.3)
   rails (~> 6.0.2)
   sass-rails (>= 6)
   selenium-webdriver
