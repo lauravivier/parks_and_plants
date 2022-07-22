@@ -59,8 +59,6 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     bindex (0.8.1)
-    binding_of_caller (0.8.0)
-      debug_inspector (>= 0.0.1)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -76,7 +74,6 @@ GEM
     childprocess (3.0.0)
     concurrent-ruby (1.1.5)
     crass (1.0.5)
-    debug_inspector (0.0.3)
     erubi (1.9.0)
     ffi (1.11.3)
     globalid (0.4.2)
@@ -177,7 +174,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.6)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     web-console (4.0.1)
       actionview (>= 6.0.0)
@@ -203,7 +200,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  binding_of_caller
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
